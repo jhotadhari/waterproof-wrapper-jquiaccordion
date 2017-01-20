@@ -1,0 +1,14 @@
+{
+	"name": "waterproof/waterproof-wrapper-jquiaccordion",
+	"description": "???",
+	"repositories":
+		[]
+		,
+	"require":
+		{"composer/installers":"*"}
+	,
+	"extra": {
+		"installer-paths": 
+			{}
+	}
+}

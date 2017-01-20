@@ -1,0 +1,28 @@
+/*
+	grunt.concat_in_order.declare('init');
+*/
+
+/*
+	grunt.concat_in_order.declare('wpwqjqa_wrapper_jquiaccordion');
+	grunt.concat_in_order.require('init');
+*/
+
+.wpwq-query-wrapper.jquiaccordion {
+  
+  .ui-accordion-header {
+    background: transparentize( #f6f6f6, 0.3);
+    &.ui-state-active {
+      background: transparentize( #007fff, 0.3);
+    }
+  }
+  
+  .ui-accordion-content {
+    background: transparentize( #ffffff, 0.3);
+    
+    .accimage img {
+      float: left;
+      margin: 1rem 1rem 1rem 0rem;
+    }
+  }
+
+}
