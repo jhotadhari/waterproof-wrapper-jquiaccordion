@@ -13,12 +13,18 @@ class Wpwq_wrapper_jquiaccordion_single extends Wpwq_wrapper_single {
 		
 	protected function set_inner( $query_single_obj ) {
 		
-		$is_linked = ( array_key_exists('has_link', $this->args ) && $this->args['has_link'] == 'true' && strlen($query_single_obj['str_link']) > 0 ? true : false );
+		$is_linked = ( array_key_exists('has_link', $this->args ) 
+			&& $this->args['has_link'] == 'true' 
+			&& strlen($query_single_obj['str_link']) > 0 
+			&& strlen($query_single_obj['link']) > 0 
+			? true 
+			: false );
 
 		$return = '';
 
+		$header_tag = ( array_key_exists('header_tag', $this->args ) && strlen($this->args['header_tag']) > 0 ? $this->args['header_tag'] : 'h2' );
 		$return .= '<div class="ui-accordion-header">';
-			$return .= '<div class="title">' . $query_single_obj['str_title'] . '</div>';
+			$return .= '<' . $header_tag . ' class="title">' . $query_single_obj['str_title'] . '</' . $header_tag . '>';
 		$return .= '</div>';
 		
 		if ( strlen($query_single_obj['image_url']) > 0 ){

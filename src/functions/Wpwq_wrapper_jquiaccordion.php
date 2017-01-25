@@ -106,7 +106,6 @@ class Wpwq_wrapper_jquiaccordion extends Wpwq_wrapper {
 			// childtheme doesn't exists
 			if ( file_exists( get_template_directory() . '/wpwq/wpwqjqa_style.css' ) ){
 				wp_enqueue_style( 'wpwqjqa_style_theme', get_template_directory_uri() . '/wpwq/wpwqjqa_style.css' );
-
 			}
 		}
 	

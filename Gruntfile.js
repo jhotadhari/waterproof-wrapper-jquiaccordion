@@ -169,6 +169,7 @@ module.exports = function(grunt){
 					],
 					tasks: [
 						'copy:css',
+						'local_sync:<%= local_sync.wp_install %>'
 					]
 				},		
 				

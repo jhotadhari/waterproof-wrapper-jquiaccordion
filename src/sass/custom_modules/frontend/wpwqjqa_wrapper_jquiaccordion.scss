@@ -6,13 +6,18 @@
 .wpwq-query-wrapper.jquiaccordion {
   
   .ui-accordion-header {
-    background: transparentize( #f6f6f6, 0.3);
+    background: transparentize( #f6f6f6, 0.3);
+
     &.ui-state-active {
       background: transparentize( #007fff, 0.3);
-    }
-  }
-  
-  .ui-accordion-content {
+    }
+
+  }
+
+  
+
+  .ui-accordion-content {
+
     background: transparentize( #ffffff, 0.3);
     
     .accimage img {

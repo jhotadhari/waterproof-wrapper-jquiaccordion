@@ -19,6 +19,11 @@ function wpwq_wrapper_add_type_jquiaccordion(){
 					'default' => 'false', 
 					'desc' => __('Object should be linked?','para_text')
 					),
+				'header_tag' => array(
+					'accepts' => 'html heading tag', 
+					'default' => 'h2', 
+					'desc' => __('h1 h2 h3 h4 ...?','para_text')
+					),				
 				/*
 				'count_subs' => array(
 					// ??? is in parent::	should be somehow here and ooked
