@@ -59,12 +59,6 @@ class Wpwq_wrapper_jquiaccordion_single extends Wpwq_wrapper_single {
 						
 			$return .= '<div  class="accmoreinfo">';
 				
-				// if ( strlen($query_single_obj['str_count_subs']) > 0 ){
-				// 	$return .= '<span class="font-content">';
-				// 		$return .= $query_single_obj['str_count_subs'];
-				// 	$return .= '</span>';					
-				// }
-		
 				$return .= '<a title="' . $query_single_obj['str_title'] . '" href="' . $query_single_obj['link'] . '">'
 ;
 					$return .= '<h3>';

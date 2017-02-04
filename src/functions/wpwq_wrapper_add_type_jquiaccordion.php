@@ -24,31 +24,6 @@ function wpwq_wrapper_add_type_jquiaccordion(){
 					'default' => 'h2', 
 					'desc' => __('h1 h2 h3 h4 ...?','para_text')
 					),				
-				/*
-				'count_subs' => array(
-					// ??? is in parent::	should be somehow here and ooked
-					'accepts' => 'bool', 
-					'default' => 'false', 
-					'desc' => __('If terms are queried, display post count?','para_text')					
-					),
-
-				'subs_post_type' => array(
-					// ??? is in parent::	should be somehow here and ooked
-					'accepts' => 'string', 
-					'default' => 'post', 
-					'desc' => __('If terms are queried, and count_subs is true, what post_type should be used as name?','para_text')
-					),
-				'more' => array(
-					'accepts' => 'string', 
-					'default' => 'more', 
-					'desc' => __('label for toogle button for closed panels','para_text')		
-					),
-				'close' => array(
-					'accepts' => 'string', 
-					'default' => 'close', 
-					'desc' => __('label for toogle button for opened panels','para_text')			
-					),
-				*/
 				'acc_options' => array(
 					'accepts' => 'JSON', 
 					'default' => '... there are some defaults ???',

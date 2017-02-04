@@ -10,19 +10,6 @@
 	grunt.concat_in_order.require('Wpwqjqa_localize');
 */
 
-/*
-	requires
-		???
-		jquery.jquiaccordion.js
-
-		jquery.jquiaccordion.less
-
-		
-		wpwq_wrapper_jquiaccordion.js
-		wpwq_wrapper_jquiaccordion.less
-		
-*/
-
 
 class Wpwq_wrapper_jquiaccordion extends Wpwq_wrapper {
 	
