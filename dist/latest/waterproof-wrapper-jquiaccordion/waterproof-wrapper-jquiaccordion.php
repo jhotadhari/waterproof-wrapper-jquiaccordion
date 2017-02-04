@@ -3,7 +3,7 @@
 Plugin Name: Waterproof Wrapper jQuery UI Accordion
 Plugin URI: http://waterproof-webdesign.info/waterproof-wrapper-jquiaccordion
 Description: Wrapper to extend the 'Waterproof Wrap Query' Plugin. Based on jQuery user interface accordion (https://jqueryui.com/accordion/).
-Version: 0.0.1
+Version: 0.0.2
 Author: jhotadhari
 Author URI: http://waterproof-webdesign.info/
 License: GNU General Public License v2

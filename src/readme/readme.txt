@@ -16,7 +16,7 @@ It's based on [jQuery user interface accordion](https://jqueryui.com/accordion/ 
 Thanks to CMB2 for their easy metaboxes and optionpages!
 
 == Installation ==
-## Requirements:
+Requirements:
 * php 5.6
 * Waterproof Wrap Query Plugin
 

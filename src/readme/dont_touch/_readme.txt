@@ -1,8 +1,10 @@
 === Waterproof Wrapper jQuery UI Accordion ===
 Tags: shortcode,wrapper,lists,listing,accordion,jQuery,jQueryUI
 Donate link: http://waterproof-webdesign.info/donate
+Contributors: jhotadhari
 Tested up to: 4.7.2
-Stable tag: 4.7
+Requires at least: 4.7
+Stable tag: trunk
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,13 +27,16 @@ It's based on [jQuery user interface accordion](https://jqueryui.com/accordion/ 
 Thanks to CMB2 for their easy metaboxes and optionpages!
 
 == Installation ==
-## Requirements:
+Requirements:
 * php 5.6
 * Waterproof Wrap Query Plugin
 
 Upload and install this Plugin in the same way you\'d install any other plugin.
 
 == Changelog ==
+
+= 0.0.2 =
+Edit readme
 
 = 0.0.1 =
 Hurray, first stable Version!
